@@ -1,0 +1,39 @@
+Install Cubic
+1. sudo apt-add-repository ppa:cubic-wizard/release
+2. sudo apt update
+3. sudo apt install cubic
+
+Shared Folder
+1. Shutdown VM Linux
+2. Settings → Shared Folders → Klik Add New
+3. Devices → Insert Guest Additions CD Image
+4. sudo mkdir -p /media/cdrom
+5. sudo mount /dev/cdrom /media/cdrom
+6. sudo /media/cdrom/VBoxLinuxAdditions.run
+7. sudo usermod -aG vboxsf $USER
+8. reboot
+
+Membuat Folder
+1. Masuk file manager → Documents → New Folder
+
+Atur Project Cubic
+1. Masukkan file iso ubuntu (Filename Original Disk) Pilih di mana file disimpan
+2. Ubah nama (Filename Custom Disk) menjadi worklyn-office-os-1.0-desktop-amd64.iso
+3. ubah version menjadi 1.0
+4. Ubah nama Ubuntu 20.04 (Volume ID) menjadi Worklyn OS 1.0 LTS amd64
+5. Ubah release menjadi Office Projected Release, Lalu klik next di atas
+6. Terakhir akan terbuka terminal cubic (root@cubic:~#)
+
+Install Aplikasi
+1. apt update
+2. Instal Libreoffice → apt install libreoffice -y
+3. Install Okular → apt install -y okular
+4. Install Thunderbird Email Client → apt install thunderbird -y
+5. Install Firefox → apt install firefox -y
+5. Calculator & ekstrak zip/rar. → apt install gnome-calculator file-roller -y
+6. Printer & Scanner → apt install system-config-printer simple-scan -y
+7. Font kompatibel MS Office → apt install fonts-crosextra-carlito fonts-crosextra-caladea -y
+
+Hapus Aplikasi Tidak Perlu
+
+
