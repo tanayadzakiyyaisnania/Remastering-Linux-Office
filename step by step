@@ -54,6 +54,68 @@ Perapian menu
 2. Rapikan nama menu LibreOffice → update-desktop-database
 3. apt clean
 
+Pasang Wallpaper
+1. Copy wallpaper ke folder sistem → cp worklyn-wallpaper.png /usr/share/backgrounds/worklyn-wallpaper.png
+2. Buat folder config default XFCE → mkdir -p /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml
+3. Buat file config wallpaper XFCE → nano /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<channel name="xfce4-desktop" version="1.0">
+  <property name="backdrop">
+    <property name="screen0">
+      <property name="monitor0">
+        <property name="workspace0">
+          <property name="last-image" type="string" value="/usr/share/backgrounds/worklyn-wallpaper.png"/>
+          <property name="image-style" type="int" value="5"/>
+        </property>
+      </property>
+    </property>
+  </property>
+</channel>
+Simpan:
+Ctrl + O → Enter
+Ctrl + X
+
+UBIQUILITY SLIDE PERTAMA
+1. welcome.html → /usr/share/ubiquity-slideshow/slides/welcome.html
+isi:
+<h1 style="text-align:center; margin-bottom:30px;">
+  Welcome to Worklyn OS
+</h1>
+
+<div style="display:flex; align-items:flex-start;">
+
+  <!-- KIRI: TEKS SCROLL -->
+  <div style="
+    width:55%;
+    padding-right:25px;
+    text-align:justify;
+    max-height:240px;
+    overflow-y:auto;
+  ">
+    <p>
+      Terima kasih telah memilih Worklyn OS 1.0.
+      Distro ini dirancang sebagai pemenuhan tugas akhir
+      pada mata kuliah Sistem Operasi yang diampu oleh
+      Bapak Fitri Wibowo, S.S.T., M.T.
+    </p>
+
+    <p>
+      Worklyn OS bertemakan office dan merupakan sistem
+      operasi berbasis Xubuntu 22.04 LTS yang dikustomisasi
+      untuk mendukung aktivitas perkantoran dan akademik.
+      Distro ini menyediakan aplikasi produktivitas utama,
+      antarmuka yang sederhana, serta sistem yang ringan
+      dan stabil.
+    </p>
+  </div>
+
+  <!-- KANAN: LOGO DIAM -->
+  <div style="width:45%; text-align:center;">
+    <img src="images/worklyn-logo.png" width="260">
+  </div>
+
+</div>
+
 
 
 
