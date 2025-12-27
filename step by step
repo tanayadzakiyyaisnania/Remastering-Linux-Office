@@ -94,18 +94,18 @@ isi:
   ">
     <p>
       Terima kasih telah memilih Worklyn OS 1.0.
-      Distro ini dirancang sebagai pemenuhan tugas akhir
+      Distro ini dikembangkan sebagai pemenuhan tugas akhir
       pada mata kuliah Sistem Operasi yang diampu oleh
       Bapak Fitri Wibowo, S.S.T., M.T.
     </p>
 
     <p>
-      Worklyn OS bertemakan office dan merupakan sistem
-      operasi berbasis Xubuntu 22.04 LTS yang dikustomisasi
-      untuk mendukung aktivitas perkantoran dan akademik.
-      Distro ini menyediakan aplikasi produktivitas utama,
-      antarmuka yang sederhana, serta sistem yang ringan
-      dan stabil.
+      WorklynOS dirancang dengan fokus pada kebutuhan 
+      perkantoran dan akademik, berbasis Xubuntu 22.04 LTS yang 
+      telah dikustomisasi. Sistem operasi ini menyediakan aplikasi 
+      produktivitas utama, antarmuka yang sederhana dan mudah 
+      digunakan, serta kinerja yang ringan, stabil, dan andal untuk 
+      mendukung aktivitas kerja dan pembelajaran.
     </p>
   </div>
 
@@ -115,6 +115,96 @@ isi:
   </div>
 
 </div>
+
+Ambil Gambar ke ubiquity
+1. Untuk nyari → find /usr/share/icons -iname "*libreoffice*writer*.png"
+2. Nanti akan muncul path
+3. salin → cp /usr/share/icons/hicolor/128x128/apps/libreoffice-writer.png \
+/usr/share/ubiquity-slideshow/slides/images/libreoffice.png
+
+UBIQUITY SLIDE 2
+1. nano /usr/share/ubiquity-slideshow/slides/applications.html
+isi:
+<div class="slide">
+
+  <!-- JUDUL -->
+  <h1>Aplikasi yang Tersedia</h1>
+
+  <!-- DESKRIPSI -->
+  <p>
+    Berikut aplikasi yang terdapat di dalam ISO Worklyn OS
+    yang dirancang untuk mendukung aktivitas perkantoran
+    dan akademik.
+  </p>
+
+  <!-- SUBJUDUL + GARIS BAWAH -->
+  <h2 style="margin-top:30px; border-bottom:2px solid #ccc; padding-bottom:5px;">
+    Software yang Tersedia
+  </h2>
+
+  <!-- DAFTAR APLIKASI -->
+  <ul style="list-style:none; padding:0; margin-top:20px;">
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:15px;">
+      <img src="images/libreoffice.png" width="40" style="margin-right:15px;">
+      <span>
+        LibreOffice<br>
+        Aplikasi pengolah dokumen, spreadsheet, dan presentasi
+      </span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:15px;">
+      <img src="images/okular.png" width="40" style="margin-right:15px;">
+      <span>
+        Okular<br>
+        Aplikasi pembaca dokumen PDF
+      </span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:15px;">
+      <img src="images/thunderbird.png" width="40" style="margin-right:15px;">
+      <span>
+        Thunderbird<br>
+        Aplikasi klien email
+      </span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:15px;">
+      <img src="images/firefox.png" width="40" style="margin-right:15px;">
+      <span>
+        Firefox<br>
+        Peramban web
+      </span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:15px;">
+      <img src="images/calculator.svg" width="40" style="margin-right:15px;">
+      <span>
+        Calculator<br>
+        Aplikasi kalkulator untuk perhitungan dasar
+      </span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:15px;">
+      <img src="images/file-roller.png" width="40" style="margin-right:15px;">
+      <span>
+        File Roller<br>
+        Aplikasi ekstraksi dan pengelolaan arsip ZIP/RAR
+      </span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:15px;">
+      <img src="images/simple-scan.svg" width="40" style="margin-right:15px;">
+      <span>
+        Simple Scan<br>
+        Aplikasi pemindaian dokumen
+      </span>
+    </li>
+
+  </ul>
+
+</div>
+
 
 
 
