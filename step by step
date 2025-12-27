@@ -128,7 +128,9 @@ isi:
 <div class="slide">
 
   <!-- JUDUL -->
-  <h1>Aplikasi yang Tersedia</h1>
+  <h1 style="text-align:center; margin-bottom:25px;">
+    Aplikasi yang Tersedia
+  </h1>
 
   <!-- DESKRIPSI -->
   <p>
@@ -202,6 +204,37 @@ isi:
     </li>
 
   </ul>
+
+</div>
+
+UBIQUITY Slide 3
+1. nano /usr/share/ubiquity-slideshow/slides/creator.html
+isi:
+<div class="slide">
+
+  <h1 style="text-align:center; margin-bottom:25px;">
+    Tentang Pengembang
+  </h1>
+
+  <div style="max-width:750px; margin:auto; text-align:center;">
+
+    <p>
+      <strong>Worklyn OS</strong> dikembangkan oleh
+      <strong>Tanaya Dzakiyya Isnnaia</strong>
+      sebagai bagian dari pemenuhan tugas akhir
+      mata kuliah <strong>Sistem Operasi</strong>.
+    </p>
+
+    <p style="margin-top:15px;">
+      Semoga sistem ini dapat membantu aktivitas kerja
+      dan pembelajaran Anda.
+    </p>
+
+  </div>
+
+  <div style="text-align:center; margin-top:30px;">
+    <img src="images/worklyn-logo.png" width="180">
+  </div>
 
 </div>
 
