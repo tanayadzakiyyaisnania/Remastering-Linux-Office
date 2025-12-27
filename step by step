@@ -35,5 +35,43 @@ Install Aplikasi
 7. Font kompatibel MS Office → apt install fonts-crosextra-carlito fonts-crosextra-caladea -y
 
 Hapus Aplikasi Tidak Perlu
+1. hapus game → apt purge -y pidgin gnome-mahjongg gnome-mines gnome-sudoku
+2. hapus multimedia → apt purge -y rhythmbox totem parole
+3. bersihkan sisa → apt autoremove -y
+                    apt clean
+
+Perapian menu
+1. sembunyikan game → mkdir -p /etc/xdg/menus/applications-merged
+                      nano /etc/xdg/menus/applications-merged/no-games.menu
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Exclude>
+    <Category>Game</Category>
+  </Exclude>
+</Menu>
+2. Rapikan nama menu LibreOffice → update-desktop-database
+3. apt clean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
