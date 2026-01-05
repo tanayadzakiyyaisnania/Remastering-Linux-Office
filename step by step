@@ -75,6 +75,12 @@ Simpan:
 Ctrl + O → Enter
 Ctrl + X
 
+PASANG WALLPAPER DEFAULT
+- Copy wallpaper Worklyn ke backdrops → cp /usr/share/backgrounds/worklyn-wallpaper.png /usr/share/xfce4/backdrops/worklyn-wallpaper.png
+- Backup default wallpaper → cp /usr/share/xfce4/backdrops/xubuntu-jammy.png /usr/share/xfce4/backdrops/xubuntu-jammy.png.bak
+- TIMPA wallpaper default Xubuntu → cp /usr/share/xfce4/backdrops/worklyn-wallpaper.png /usr/share/xfce4/backdrops/xubuntu-jammy.png
+- Permission → chmod 644 /usr/share/xfce4/backdrops/xubuntu-jammy.png
+
 UBIQUILITY SLIDE PERTAMA
 1. welcome.html → /usr/share/ubiquity-slideshow/slides/welcome.html
 isi:
