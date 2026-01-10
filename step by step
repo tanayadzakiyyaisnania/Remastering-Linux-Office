@@ -7,9 +7,9 @@ Shared Folder
 1. Shutdown VM Linux
 2. Settings → Shared Folders → Klik Add New
 3. Devices → Insert Guest Additions CD Image
-4. sudo mkdir -p /media/cdrom
-5. sudo mount /dev/cdrom /media/cdrom
-6. sudo /media/cdrom/VBoxLinuxAdditions.run
+4. sudo mount /dev/cdrom /media/cdrom
+5. cd media/cdrom
+6. sudo ./VBoxLinuxAdditions.run
 7. sudo usermod -aG vboxsf $USER
 8. reboot
 
